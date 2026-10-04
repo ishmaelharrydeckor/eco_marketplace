@@ -6,11 +6,11 @@
 <title>Eco: The Stablecoin Network That Makes Money Programmable</title>
 <style>
 /* Fonts and imagery load from the Eco CDN, so the page needs an internet connection. */
-@font-face{font-family:Roobert;src:url(https://cdn.prod.website-files.com/67af51ad91d062ee8ef52137/67af51ad91d062ee8ef52156_Roobert%20Regular.woff2) format("woff2");font-weight:400;font-display:swap}
-@font-face{font-family:"Aeonik Mono";src:url(https://cdn.prod.website-files.com/67af51ad91d062ee8ef52137/67af51ad91d062ee8ef52157_AeonikMono-Regular.woff2) format("woff2");font-weight:400;font-display:swap}
-@font-face{font-family:Interdisplay;src:url(https://cdn.prod.website-files.com/67af51ad91d062ee8ef52137/6977b6f49d7fbf45cc83a5ad_InterDisplay-Regular.woff2) format("woff2");font-weight:400;font-display:swap}
-@font-face{font-family:Fragmentmono;src:url(https://cdn.prod.website-files.com/67af51ad91d062ee8ef52137/697a790bacb59f2b59ffe309_FragmentMono-Regular.woff2) format("woff2");font-weight:400;font-display:swap}
-@font-face{font-family:"Inter 24 Pt";src:url(https://cdn.prod.website-files.com/67af51ad91d062ee8ef52137/69d6a8a2d8754e0df8a12fd9_Inter_24pt-Regular.woff2) format("woff2");font-weight:400;font-display:swap}
+@font-face{font-family:Roobert;src:url({{CDN}}67af51ad91d062ee8ef52156_Roobert%20Regular.woff2) format("woff2");font-weight:400;font-display:swap}
+@font-face{font-family:"Aeonik Mono";src:url({{CDN}}67af51ad91d062ee8ef52157_AeonikMono-Regular.woff2) format("woff2");font-weight:400;font-display:swap}
+@font-face{font-family:Interdisplay;src:url({{CDN}}6977b6f49d7fbf45cc83a5ad_InterDisplay-Regular.woff2) format("woff2");font-weight:400;font-display:swap}
+@font-face{font-family:Fragmentmono;src:url({{CDN}}697a790bacb59f2b59ffe309_FragmentMono-Regular.woff2) format("woff2");font-weight:400;font-display:swap}
+@font-face{font-family:"Inter 24 Pt";src:url({{CDN}}69d6a8a2d8754e0df8a12fd9_Inter_24pt-Regular.woff2) format("woff2");font-weight:400;font-display:swap}
 
 :root{
   --black:#0f111a;--off-white:#efefef;--primary:#1c53bd;--light-blue:#53adfe;
@@ -74,7 +74,7 @@ h1,h2,h3,p{margin:0;font-weight:400}
 .nav3-burger{display:none}
 
 /* ---------- hero ---------- */
-.hero{position:relative;overflow:hidden;min-height:119svh;background:#fff url(https://cdn.prod.website-files.com/67af51ad91d062ee8ef52137/69ca2710a955a2af244fafd0_Background%20%289%29.avif) 50% 100%/cover no-repeat}
+.hero{position:relative;overflow:hidden;min-height:119svh;background:#fff url({{CDN}}69ca2710a955a2af244fafd0_Background%20%289%29.avif) 50% 100%/cover no-repeat}
 .hero-video{position:absolute;inset:0 0 auto 0;width:100%;height:110svh;min-height:111svh;object-fit:cover;pointer-events:none}
 .hero-dark{position:absolute;inset:0;background:linear-gradient(#0000008c 70%,#00000040 80%,#0000 95%)}
 .hero-camera{position:sticky;top:0;display:flex;justify-content:center;align-items:center;width:100%;height:100svh}
@@ -124,7 +124,7 @@ h1,h2,h3,p{margin:0;font-weight:400}
 .build-cta{display:flex;flex-direction:column;justify-content:space-between;gap:60px;width:50%;min-height:296px;padding:40px;background:#ffffff0a;border:1px solid #ffffff0f;border-radius:6px}
 .build-cta h3{font:400 2rem/1.2 var(--sans);letter-spacing:0;margin-bottom:12px}
 .build-cta p{max-width:570px;color:#aeaeae;font:400 20px/1em var(--inter);letter-spacing:-.02em}
-.cta-wrap{position:relative;z-index:5;display:grid;grid-template-columns:1fr 1fr;gap:16px;width:calc(100% - 40px);max-width:1320px;height:320px;margin:10rem auto 0;overflow:hidden;border-radius:12px;background:#1b2b4d url(https://cdn.prod.website-files.com/67af51ad91d062ee8ef52137/697a7e56f3c41d6578f6935e_section.png) 100%/cover}
+.cta-wrap{position:relative;z-index:5;display:grid;grid-template-columns:1fr 1fr;gap:16px;width:calc(100% - 40px);max-width:1320px;height:320px;margin:10rem auto 0;overflow:hidden;border-radius:12px;background:#1b2b4d url({{CDN}}697a7e56f3c41d6578f6935e_section.png) 100%/cover}
 .cta-content{display:flex;flex-direction:column;padding:40px}
 .cta-content h2{font:400 48px/1.06 var(--disp);letter-spacing:-.04em;margin-bottom:32px;white-space:nowrap}
 .cta-content form{margin-top:auto;max-width:460px}
@@ -179,8 +179,8 @@ h1,h2,h3,p{margin:0;font-weight:400}
   <div class="nav3-bg"></div>
   <div class="nav3-bar"><div class="nav3-bar-inner">
     <div class="nav3-left">
-      <a href="#top"><img class="nav3-logo" src="https://cdn.prod.website-files.com/67af51ad91d062ee8ef52137/6abd49dc58d42bbce71220ce_nav3-logo.svg" alt="Eco"></a>
-      <div class="nav3-menu"><div class="nav3-dd"><div role="button" aria-expanded="false" tabindex="0" class="nav3-toggle"><div class="nav3-toggle-text">Platform</div><img src="https://cdn.prod.website-files.com/67af51ad91d062ee8ef52137/6abd7da9a054c2580025a9a9_nav3-chevron-solid.svg" alt="" class="nav3-chevron"/></div><div class="nav3-panel"><div class="nav3-col"><div class="nav3-col-label">Core</div><a class="nav3-item is-centered" href="#"><img src="https://cdn.prod.website-files.com/67af51ad91d062ee8ef52137/6abd49e05ef0918ac02800c0_nav3-icon-routes.svg" alt="" class="nav3-icon"/><div class="nav3-item-text"><div class="nav3-item-title">Routes API + CLI</div><div class="nav3-item-desc">One API for every capability</div></div></a><link rel="noopener"/><div aria-disabled="true" class="nav3-item is-centered is-disabled"><img src="https://cdn.prod.website-files.com/67af51ad91d062ee8ef52137/6abd49e15f4fb652811b25da_nav3-icon-sauce.svg" alt="" class="nav3-icon"/><div class="nav3-item-text"><div class="nav3-item-title">Sauce SDK (Soon)</div><div class="nav3-item-desc">Fully programmable onchain routing, for failsafe execution</div></div></div></div><div class="nav3-divider"></div><div class="nav3-col"><div class="nav3-col-label">Capabilities</div><a class="nav3-item" href="#"><img src="https://cdn.prod.website-files.com/67af51ad91d062ee8ef52137/6abd49e2dbc1b26fcbcbc167_nav3-icon-send-swap.svg" alt="" class="nav3-icon"/><div class="nav3-item-text"><div class="nav3-item-title">Send &amp; Swap across chains</div><div class="nav3-item-desc">Move stablecoins across markets with flexible speed and settlement</div></div></a><link rel="noopener"/><a class="nav3-item" href="#"><img src="https://cdn.prod.website-files.com/67af51ad91d062ee8ef52137/6abd49e5a0350b2a227bd81a_nav3-icon-deposit.svg" alt="" class="nav3-icon"/><div class="nav3-item-text"><div class="nav3-item-title">Deposit &amp; Payout</div><div class="nav3-item-desc">Automate onchain deposit and withdraw flows, with single-click UX</div></div></a><link rel="noopener"/><a class="nav3-item" href="#"><img src="https://cdn.prod.website-files.com/67af51ad91d062ee8ef52137/6abd49e60b4dc711220584a3_nav3-icon-program-route.svg" alt="" class="nav3-icon"/><div class="nav3-item-text"><div class="nav3-item-title">Program your route</div><div class="nav3-item-desc">Define conditional routing and advanced order types to fit your goals</div></div></a><link rel="noopener"/><a class="nav3-item" href="#"><img src="https://cdn.prod.website-files.com/67af51ad91d062ee8ef52137/6abd49e89d0929ac09405446_nav3-icon-stablecoin-ux.svg" alt="" class="nav3-icon"/><div class="nav3-item-text"><div class="nav3-item-title">Enable 1:1 stablecoin UX</div><div class="nav3-item-desc">Give your users predictable, no-slippage sends and swaps</div></div></a><link rel="noopener"/><a class="nav3-item" href="#"><img src="https://cdn.prod.website-files.com/67af51ad91d062ee8ef52137/6abd49e91eac8f70380a68e3_nav3-icon-compliance.svg" alt="" class="nav3-icon"/><div class="nav3-item-text"><div class="nav3-item-title">Ensure end-to-end compliance</div><div class="nav3-item-desc">Whitelist liquidity sources, with transaction tracing and auditability</div></div></a><link rel="noopener"/></div></div></div><div class="nav3-dd"><div role="button" aria-expanded="false" tabindex="0" class="nav3-toggle"><div class="nav3-toggle-text">Who uses Eco</div><img src="https://cdn.prod.website-files.com/67af51ad91d062ee8ef52137/6abd7da9a054c2580025a9a9_nav3-chevron-solid.svg" alt="" class="nav3-chevron"/></div><div class="nav3-panel is-two-col is-narrow"><div class="nav3-col is-list"><a class="nav3-item" href="#"><img src="https://cdn.prod.website-files.com/67af51ad91d062ee8ef52137/6abd7daa31202d1c6590c82b_nav3-icon-agents.svg" alt="" class="nav3-icon"/><div class="nav3-item-text"><div class="nav3-item-title">Agents (really)</div><div class="nav3-item-desc">A failsafe onchain harness for automated execution</div></div></a><link rel="noopener"/><a class="nav3-item" href="#"><img src="https://cdn.prod.website-files.com/67af51ad91d062ee8ef52137/6abd7dac727540240d2ee928_nav3-icon-asset-issuers.svg" alt="" class="nav3-icon"/><div class="nav3-item-text"><div class="nav3-item-title">Asset Issuers</div><div class="nav3-item-desc">Make your asset more accessible, more liquid, more composable across onchain markets</div></div></a><link rel="noopener"/><a class="nav3-item" href="#"><img src="https://cdn.prod.website-files.com/67af51ad91d062ee8ef52137/6abd7dacb4b67afc444a50ac_nav3-icon-cli.svg" alt="" class="nav3-icon"/><div class="nav3-item-text"><div class="nav3-item-title">Onchain Builders</div><div class="nav3-item-desc">Enable gasless and 1:1 stablecoin UX, smart deposits and payouts, programmable routing</div></div></a><link rel="noopener"/></div><div class="nav3-col is-list"><a class="nav3-item" href="#"><img src="https://cdn.prod.website-files.com/67af51ad91d062ee8ef52137/6abd7dad40dea65f65bf7da8_nav3-icon-payments-treasury.svg" alt="" class="nav3-icon"/><div class="nav3-item-text"><div class="nav3-item-title">Payment &amp; Treasury Platforms</div><div class="nav3-item-desc">Fast cross-chain processing, yield market access, automated settlement, clean audit trail</div></div></a><link rel="noopener"/><a class="nav3-item" href="#"><img src="https://cdn.prod.website-files.com/67af51ad91d062ee8ef52137/6abd7daf86185390eaccba22_nav3-icon-trading-platforms.svg" alt="" class="nav3-icon"/><div class="nav3-item-text"><div class="nav3-item-title">Trading Platforms</div><div class="nav3-item-desc">Best-priced swaps, advanced order types, custom strategies and automation</div></div></a><link rel="noopener"/><a class="nav3-item" href="#"><img src="https://cdn.prod.website-files.com/67af51ad91d062ee8ef52137/6abd7daf33b3033859642023_nav3-icon-wallet-platforms.svg" alt="" class="nav3-icon"/><div class="nav3-item-text"><div class="nav3-item-title">Wallet Platforms</div><div class="nav3-item-desc">Power fast cross-chain swaps at size, program onchain execution from your policy engine</div></div></a><link rel="noopener"/></div><div class="nav3-divider"></div><div class="nav3-col"><div class="nav3-featured-static"><a aria-label="Introducing Eco Smart Deposits for Circle Gateway" class="nav3-featured-media"><img src="https://cdn.prod.website-files.com/67af51ad91d062ee8ef52137/6abd881555d54f36c1d617be_nav3-featured-smart-deposits.jpg" alt="" class="nav3-featured-img"/><div class="nav3-featured-shade"></div><img src="https://cdn.prod.website-files.com/67af51ad91d062ee8ef52137/6abd881555d54f36c1d617d8_nav3-featured-lockup-eco-circle.svg" alt="Eco + Circle" class="nav3-featured-lockup"/></a><link rel="noopener"/><div class="nav3-featured-text"><div class="nav3-featured-title">Introducing Eco Smart Deposits for Circle Gateway</div><a class="nav3-featured-link" href="#">Learn more →</a><link rel="noopener"/></div></div></div></div></div><div class="nav3-dd"><div role="button" aria-expanded="false" tabindex="0" class="nav3-toggle"><div class="nav3-toggle-text">Developers</div><img src="https://cdn.prod.website-files.com/67af51ad91d062ee8ef52137/6abd7da9a054c2580025a9a9_nav3-chevron-solid.svg" alt="" class="nav3-chevron"/></div><div class="nav3-panel is-two-col"><div class="nav3-col is-list"><a class="nav3-item is-centered" href="#"><img src="https://cdn.prod.website-files.com/67af51ad91d062ee8ef52137/6abd7dadb4b67afc444a518d_nav3-icon-quickstart.svg" alt="" class="nav3-icon"/><div class="nav3-item-text"><div class="nav3-item-title">Quickstart</div><div class="nav3-item-desc">Your first cross-chain USDC transfer in five minutes</div></div></a><link rel="noopener"/><a class="nav3-item is-centered" href="#"><img src="https://cdn.prod.website-files.com/67af51ad91d062ee8ef52137/6abd7dacb4b67afc444a50c9_nav3-icon-documentation.svg" alt="" class="nav3-icon"/><div class="nav3-item-text"><div class="nav3-item-title">Documentation</div><div class="nav3-item-desc">Platform guides, capabilities, architecture</div></div></a><link rel="noopener"/><a class="nav3-item is-centered" href="#"><img src="https://cdn.prod.website-files.com/67af51ad91d062ee8ef52137/6abd7dacbc6f52849ea98b9c_nav3-icon-api-reference.svg" alt="" class="nav3-icon"/><div class="nav3-item-text"><div class="nav3-item-title">API Reference</div><div class="nav3-item-desc">v1 OpenAPI, errors and retries, open quote service</div></div></a><link rel="noopener"/><a class="nav3-item is-centered" href="#"><img src="https://cdn.prod.website-files.com/67af51ad91d062ee8ef52137/6abd7dacb4b67afc444a50ac_nav3-icon-cli.svg" alt="" class="nav3-icon"/><div class="nav3-item-text"><div class="nav3-item-title">CLI</div><div class="nav3-item-desc">Scripting and ops from the terminal</div></div></a><link rel="noopener"/></div><div class="nav3-col is-list"><a class="nav3-item" href="#"><img src="https://cdn.prod.website-files.com/67af51ad91d062ee8ef52137/6abd7daf33b3033859641f81_nav3-icon-recipes.svg" alt="" class="nav3-icon"/><div class="nav3-item-text"><div class="nav3-item-title">Recipes</div><div class="nav3-item-desc">Send USDC cross-chain, auto-route deposits, gasless Gateway deposit, treasury rebalancing, become a solver</div></div></a><link rel="noopener"/><a class="nav3-item is-centered" href="#"><img src="https://cdn.prod.website-files.com/67af51ad91d062ee8ef52137/6abd7dacb4b67afc444a5096_nav3-icon-changelog.svg" alt="" class="nav3-icon"/><div class="nav3-item-text"><div class="nav3-item-title">Changelog</div><div class="nav3-item-desc">Releases and breaking changes in one place.</div></div></a><link rel="noopener"/><a class="nav3-item is-centered" href="#"><img src="https://cdn.prod.website-files.com/67af51ad91d062ee8ef52137/6abd7daf20947f67fd7361c5_nav3-icon-status-chains.svg" alt="" class="nav3-icon"/><div class="nav3-item-text"><div class="nav3-item-title">Status and supported chains</div><div class="nav3-item-desc">Live coverage and contract addresses</div></div></a><link rel="noopener"/><a class="nav3-item is-centered" href="#"><img src="https://cdn.prod.website-files.com/67af51ad91d062ee8ef52137/6abd7daa40dea65f65bf7baa_nav3-icon-agent-tools.svg" alt="" class="nav3-icon"/><div class="nav3-item-text"><div class="nav3-item-title">Agent tools</div><div class="nav3-item-desc">llms.txt, MCP server, and skills</div></div></a><link rel="noopener"/></div></div></div></div>
+      <a href="#top"><img class="nav3-logo" src="{{CDN}}6abd49dc58d42bbce71220ce_nav3-logo.svg" alt="Eco"></a>
+      {{NAV_MENU}}
     </div>
     <div class="nav3-right"><a class="nav3-cta" href="#build">Build with Eco</a></div>
   </div></div>
@@ -192,9 +192,9 @@ h1,h2,h3,p{margin:0;font-weight:400}
   <div class="hero-camera">
     <p class="hero-eyebrow">Smarter Infrastructure, Smarter Money</p>
     <div class="hero-social">
-      <a href="#" aria-label="X"><img src="https://cdn.prod.website-files.com/67af51ad91d062ee8ef52137/69405e0b5820044dae4f592e_Frame%201597880490.svg" alt=""></a>
-      <a href="#" aria-label="GitHub"><img src="https://cdn.prod.website-files.com/67af51ad91d062ee8ef52137/69405e0b31af99701bdadef2_Frame%201597880491.svg" alt=""></a>
-      <a href="#" aria-label="LinkedIn"><img src="https://cdn.prod.website-files.com/67af51ad91d062ee8ef52137/69405e0b231e49da5ac28bca_Frame%201597880492.svg" alt=""></a>
+      <a href="#" aria-label="X"><img src="{{CDN}}69405e0b5820044dae4f592e_Frame%201597880490.svg" alt=""></a>
+      <a href="#" aria-label="GitHub"><img src="{{CDN}}69405e0b31af99701bdadef2_Frame%201597880491.svg" alt=""></a>
+      <a href="#" aria-label="LinkedIn"><img src="{{CDN}}69405e0b231e49da5ac28bca_Frame%201597880492.svg" alt=""></a>
     </div>
     <div class="hero-content">
       <h1>Stablecoins Unlock<br>New Markets</h1>
@@ -216,15 +216,15 @@ h1,h2,h3,p{margin:0;font-weight:400}
     <div class="bwe-wrap">
       <div class="card first">
         <div class="card-copy"><h3>Real-Time Intelligence</h3><div><p>Use stablecoins to bridge, swap, enter or exit positions across major chains, yield platforms, RWA markets and liquidity venues.</p><p>Eco’s routing and pricing intelligence ensure best-available pathway and pricing, with institutional-grade reliability.</p></div></div>
-        <div class="card-img"><img src="https://cdn.prod.website-files.com/67af51ad91d062ee8ef52137/69775a4a79d026de66074fe3_pexels-ingo-610683.avif" alt=""></div>
+        <div class="card-img"><img src="{{CDN}}69775a4a79d026de66074fe3_pexels-ingo-610683.avif" alt=""></div>
       </div>
       <div class="card">
-        <div class="card-img"><img src="https://cdn.prod.website-files.com/67af51ad91d062ee8ef52137/69775a97ea9ac5cac5297162_pexels-ingo-610683%20(2).avif" alt=""></div>
+        <div class="card-img"><img src="{{CDN}}69775a97ea9ac5cac5297162_pexels-ingo-610683%20(2).avif" alt=""></div>
         <div class="card-copy"><h3>Seamless, Failsafe UX</h3><p>Enable 1:1 stablecoin transfers, programmable deposits or payouts, global stablecoin balances, complex swap routes and more — all starting with a simple, gasless token transfer.</p></div>
       </div>
       <div class="card">
         <div class="card-copy"><h3>Program perfect execution</h3><p>Powerful automation for complex settlement and orchestration flows. Set your risk limits, routing rules, and fallback conditions. Eco handles execution on your terms.</p></div>
-        <div class="card-img"><img src="https://cdn.prod.website-files.com/67af51ad91d062ee8ef52137/69775a97fbe196b4e451fd6c_pexels-ingo-610683%20(1).avif" alt=""></div>
+        <div class="card-img"><img src="{{CDN}}69775a97fbe196b4e451fd6c_pexels-ingo-610683%20(1).avif" alt=""></div>
       </div>
     </div>
   </div>
@@ -234,19 +234,19 @@ h1,h2,h3,p{margin:0;font-weight:400}
   <div class="container">
     <h2 class="eyebrow">Smarter Infrastructure, Smarter Money</h2>
     <div class="logos">
-      <img src="https://cdn.prod.website-files.com/67af51ad91d062ee8ef52137/6a90cbc444dfaeb6e515341a_Vector.svg" style="height:22px" alt="">
-      <img src="https://cdn.prod.website-files.com/67af51ad91d062ee8ef52137/6a90cbc4ec62ab99cc8a43c8_Mask%20group.svg" style="height:14px" alt="">
-      <img src="https://cdn.prod.website-files.com/67af51ad91d062ee8ef52137/6a90cbc4917cca22993b3fc5_Vector-1.svg" style="height:16px" alt="">
-      <img src="https://cdn.prod.website-files.com/67af51ad91d062ee8ef52137/6a90cbc4cf16dbdc2b25d032_Vector-2.svg" style="height:11px" alt="">
-      <img src="https://cdn.prod.website-files.com/67af51ad91d062ee8ef52137/6a90cbc4019a03191a87e415_Vector-3.svg" style="height:20px" alt="">
-      <img src="https://cdn.prod.website-files.com/67af51ad91d062ee8ef52137/6aa8a550b1773db77a8c6295_LS.svg" style="height:18px" alt="">
-      <img src="https://cdn.prod.website-files.com/67af51ad91d062ee8ef52137/6a90cbc4f43231f2220f139c_Vector-4.svg" style="height:26px" alt="">
-      <img src="https://cdn.prod.website-files.com/67af51ad91d062ee8ef52137/6a90cbc41701be4309a9bb34_Clip%20path%20group.svg" style="height:18px" alt="">
-      <img src="https://cdn.prod.website-files.com/67af51ad91d062ee8ef52137/6a90cbc45bea5472e5b192b5_Vector-5.svg" style="height:17px" alt="">
+      <img src="{{CDN}}6a90cbc444dfaeb6e515341a_Vector.svg" style="height:22px" alt="">
+      <img src="{{CDN}}6a90cbc4ec62ab99cc8a43c8_Mask%20group.svg" style="height:14px" alt="">
+      <img src="{{CDN}}6a90cbc4917cca22993b3fc5_Vector-1.svg" style="height:16px" alt="">
+      <img src="{{CDN}}6a90cbc4cf16dbdc2b25d032_Vector-2.svg" style="height:11px" alt="">
+      <img src="{{CDN}}6a90cbc4019a03191a87e415_Vector-3.svg" style="height:20px" alt="">
+      <img src="{{CDN}}6aa8a550b1773db77a8c6295_LS.svg" style="height:18px" alt="">
+      <img src="{{CDN}}6a90cbc4f43231f2220f139c_Vector-4.svg" style="height:26px" alt="">
+      <img src="{{CDN}}6a90cbc41701be4309a9bb34_Clip%20path%20group.svg" style="height:18px" alt="">
+      <img src="{{CDN}}6a90cbc45bea5472e5b192b5_Vector-5.svg" style="height:17px" alt="">
     </div>
     <h2 class="eyebrow">and 50+ more</h2>
   </div>
-  <img class="infra-curve" src="https://cdn.prod.website-files.com/67af51ad91d062ee8ef52137/69777a23147842dfd0be57ee_Frame%201597880494%20(4).svg" alt="">
+  <img class="infra-curve" src="{{CDN}}69777a23147842dfd0be57ee_Frame%201597880494%20(4).svg" alt="">
 </section>
 
 <footer class="footer" id="build" data-nav="dark">
@@ -276,7 +276,7 @@ h1,h2,h3,p{margin:0;font-weight:400}
 
     <div class="footer-wrap">
       <div class="footer-row footer-top">
-        <a href="#top"><img class="footer-logo" src="https://cdn.prod.website-files.com/67af51ad91d062ee8ef52137/69405a5e3474f789078e1fe5_Vector%20(12).svg" alt="Eco"></a>
+        <a href="#top"><img class="footer-logo" src="{{CDN}}69405a5e3474f789078e1fe5_Vector%20(12).svg" alt="Eco"></a>
         <ul><li><a href="#">Jobs</a></li><li><a href="#">X</a></li><li><a href="#">YouTube</a></li><li><a href="#">LinkedIn</a></li><li><a href="#">Facebook</a></li></ul>
       </div>
       <div class="footer-row footer-bottom">
@@ -285,7 +285,7 @@ h1,h2,h3,p{margin:0;font-weight:400}
       </div>
     </div>
   </div>
-  <img class="footer-orb" src="https://cdn.prod.website-files.com/67af51ad91d062ee8ef52137/69777abb83f0e105b6915f32_Frame%201597880374%20(3).svg" alt="">
+  <img class="footer-orb" src="{{CDN}}69777abb83f0e105b6915f32_Frame%201597880374%20(3).svg" alt="">
 </footer>
 
 <button class="chat" aria-label="Open chat"><svg width="24" height="24" viewBox="0 0 24 24" fill="#fff"><path d="M4 4h16v12H8l-4 4z"/></svg></button>
